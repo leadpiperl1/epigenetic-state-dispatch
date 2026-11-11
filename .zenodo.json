@@ -1,0 +1,59 @@
+{
+  "title": "Hysteretic Ternary State Tagging, Quasi-Newton Curvature Filtering, and Matrix-Free Lanczos Saddle Escape in Constrained Nonlinear Search (v1.0.0)",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "version": "1.0.0",
+  "publication_date": "2026-11-11",
+  "description": "Falsifiable numerical optimization manuscript and zero-dependency NumPy benchmark suite evaluating dual-rail balanced-ternary RC hysteresis, rotated L-BFGS curvature filtering, 10-step HVP Lanczos (1,1) oblique mirror-saddle escape on 3D Stillinger AB-polymers, and 80-bit Fowler-packed 3D FCC island percolation.",
+  "creators": [
+    {
+      "name": "Grimm, Justin D.",
+      "affiliation": "Independent Dandelion Substrate Research Group, Gurley, Alabama 35748, USA",
+      "orcid": "0009-0000-5299-0243"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "interior-point methods",
+    "balanced ternary",
+    "saddle-point escape",
+    "Lanczos algorithm",
+    "L-BFGS",
+    "AB-polymer folding",
+    "FCC percolation",
+    "island model"
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "doi",
+      "identifier": "10.1007/s10107-004-0559-y",
+      "relation": "cites"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.1103/PhysRevE.48.1469",
+      "relation": "cites"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.1039/C8SC00908B",
+      "relation": "cites"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.1109/4235.585893",
+      "relation": "cites"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.1090/S0025-5718-1980-0572855-7",
+      "relation": "cites"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.1103/PhysRevE.57.230",
+      "relation": "cites"
+    }
+  ]
+}

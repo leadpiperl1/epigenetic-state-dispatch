@@ -1,9 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this benchmark suite or manuscript, please cite it using the metadata below."
-title: "Hysteretic Ternary State Tagging, Quasi-Newton Curvature Filtering, and Matrix-Free Lanczos Saddle Escape in Constrained Nonlinear Search"
-version: 1.0.0
-date-released: 2026-11-11
+message: "If you use this benchmark suite, Active-DNA Deborah-Hopf classifier, or manuscript, please cite it using the metadata below."
+title: "Hysteretic Ternary State Tagging, Matrix-Free Lanczos Saddle Escape, and Active-Flow DNA Mori-Zwanzig Deborah-Hopf Waveguides"
+version: 1.0.1
+date-released: 2026-11-19
 license: CC-BY-4.0
+repository-code: "https://github.com/leadpiperl1/epigenetic-state-dispatch"
 authors:
   - family-names: "Grimm"
     given-names: "Justin D."

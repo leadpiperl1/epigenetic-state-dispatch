@@ -1,40 +1,30 @@
 <p align="center">
-  <img src="assets/epigenetic_dispatch_banner_v1_0_0.svg" width="100%" alt="Epigenetic State Dispatch & Lanczos Saddle Escape v1.0.0"/>
+  <img src="assets/epigenetic_dispatch_banner_v1_0_1.svg" width="100%" alt="Epigenetic State Dispatch & Active-Flow DNA Deborah-Hopf Suite v1.0.1"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%A7%AC_Preprint_%26_Suite-v1.0.0_Verified-FBBF24?style=for-the-badge&labelColor=0F172A" alt="v1.0.0"/>
-  <img src="https://img.shields.io/badge/%E2%9A%97%EF%B8%8F_Separable_Funnel-5.14x_Fewer_FLOPs-38BDF8?style=for-the-badge&labelColor=0F172A" alt="5.14x FLOPs"/>
-  <img src="https://img.shields.io/badge/%F0%9F%8C%80_Rotated_N%3D108-23.5x_L--BFGS_Speedup-34D399?style=for-the-badge&labelColor=0F172A" alt="23.5x L-BFGS"/>
-  <img src="https://img.shields.io/badge/%F0%9F%A7%B6_Oblique_3D_Polymer-95.8%25_Lanczos_Escape-FB7185?style=for-the-badge&labelColor=0F172A" alt="95.8% Escape"/>
+  <img src="https://img.shields.io/badge/%F0%9F%A7%AC_Release-v1.0.1_Waystation_Hardened-FBBF24?style=for-the-badge&labelColor=0F172A" alt="v1.0.1"/>
+  <img src="https://img.shields.io/badge/%F0%9F%8C%8A_Active--Flow_DNA-Deborah--Hopf_Waveguide-38BDF8?style=for-the-badge&labelColor=0F172A" alt="Active-Flow DNA"/>
+  <img src="https://img.shields.io/badge/%F0%9F%A7%B6_Oblique_Polymer-Lanczos_(1%2C1)_Escape-FB7185?style=for-the-badge&labelColor=0F172A" alt="Lanczos Escape"/>
+  <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_wfx--loot_Immunity-S__runner%3D0_%C2%B7_Stdlib_Gate-34D399?style=for-the-badge&labelColor=0F172A" alt="wfx-loot Immunity"/>
 </p>
 
-## 📄 Manuscript & Zero-Dependency Falsification Suite
+## Manuscript, Active-Flow DNA Deborah-Hopf Waveguide & Pure-Stdlib Falsification Suite (`v1.0.1`)
 
-* **Typeset Preprint PDF (in repo):** [`epigenetic_state_dispatch_v1_0_0.pdf`](epigenetic_state_dispatch_v1_0_0.pdf)
-* **LaTeX Source & Vector Figure:** [`epigenetic_state_dispatch_v1_0_0.tex`](epigenetic_state_dispatch_v1_0_0.tex) · [`fig_methylation_v1_0_0.pdf`](fig_methylation_v1_0_0.pdf)
-* **Author:** Justin D. Grimm ([ORCID: 0009-0000-5299-0243](https://orcid.org/0009-0000-5299-0243)), Independent Dandelion Substrate Research Group, Gurley, Alabama, USA
+* **Typeset Preprint PDF & LaTeX (`paper/`):** [`paper/epigenetic_state_dispatch_v1_0_0.pdf`](paper/epigenetic_state_dispatch_v1_0_0.pdf) · [`paper/epigenetic_state_dispatch_v1_0_0.tex`](paper/epigenetic_state_dispatch_v1_0_0.tex) · [`paper/fig_methylation_v1_0_0.pdf`](paper/fig_methylation_v1_0_0.pdf)
+* **Active-Flow DNA Mori-Zwanzig Deborah-Hopf Suite (`v1.0.1`):**
+  * Strict ISO C99 Fixed-Point `Q16.16` Classifier: [`src/active_dna_hopf_gate_v1_0_1.c`](src/active_dna_hopf_gate_v1_0_1.c) (`Byte 121` Hopf keyhole / `Byte 251` Kintsugi `> 10 deg` shear weld)
+  * Pure-Stdlib Python RK4 & FENE Limit-Cycle Verifier: [`benchmarks/verify_active_dna_mori_zwanzig_v1_0_1.py`](benchmarks/verify_active_dna_mori_zwanzig_v1_0_1.py)
+  * Julia 1.12 Triadic Multiple-Dispatch Module: [`julia/ActiveDNAWaveguide_v1_0_0.jl`](julia/ActiveDNAWaveguide_v1_0_0.jl)
+  * Companion Pearl & Code Bundle: [`pearls/PEARL_Active_Flow_DNA_Mori_Zwanzig_v1_0_0.md`](pearls/PEARL_Active_Flow_DNA_Mori_Zwanzig_v1_0_0.md)
+* **Pure-Stdlib Epigenetic & Lanczos Saddle-Escape Verifier (`--seed 42`):** [`benchmarks/verify_epigenetic_v1_0_1.py`](benchmarks/verify_epigenetic_v1_0_1.py) (plus archival NumPy 24-trial sweep in [`benchmarks/methylated_interior_search_numpy_archive_v1_0_0.py`](benchmarks/methylated_interior_search_numpy_archive_v1_0_0.py))
 
-### ⚡ Quick Reproduction (`Python 3 + NumPy` Only)
+## Quick Zero-Dependency Verification on `profplum` (`bash-5.3$`)
 
 ```bash
-# Fast <= 60-second CI & reviewer smoke verification (--seed 42):
-python3 verify_epigenetic_v1_0_0.py
-
-# Full 24-seed paper reproduction across Experiments 1, 2, and 3:
-python3 methylated_interior_search_benchmark_v1_0_0.py --seed 42 --suite all --trials 24
-
-# Professor Plum 100-seed wall-clock & confidence-interval sweep:
-python3 methylated_interior_search_benchmark_v1_0_0.py --seed 42 --suite all --trials 100 --out profplum_100seed.json
+# Compiles C99 gate inside $HOME/.cache/epigenetic_dispatch_v1_0_1 and runs
+# all pure-stdlib (--seed 42) & wfx-loot checks with zero third-party packages:
+make verify
 ```
 
-### 📊 Key Falsifiable Findings (`--seed 42`, `n = 24` Trials)
-
-| Experimental Regime | Baseline Solver | Dual-Rail / Lanczos `(1,1)` Solver | Verified Gain / Failure Boundary |
-| :--- | :--- | :--- | :--- |
-| **1A: Partially Separable Funnel (`N=36`)** | Dense Barrier IP (`534,087` FLOPs) | Schmitt RC Ternary (`103,839` FLOPs) | **`5.14x` fewer FLOPs**, identical `58.3%` basin hit rate |
-| **1B: Planar 3D Stillinger AB-Polymer (`N=19`)** | Dense IP / Achiral (`0.0%` 3D escape) | Chiral `(1,1)` Dispatch (`71,745` FLOPs) | **`0.0% -> 100.0%` 3D folding** (median `-2.926`) |
-| **1C: Haar-Rotated Negative Control (`SO(36)`)** | Dense Barrier IP (`66.7%` hit rate) | Coordinate Ternary (`50.0%` hit rate) | Exposes exact [No Free Lunch](https://doi.org/10.1109/4235.585893) coordinate-basis dependence |
-| **3A: Rotated Scaling (`N=108`)** | Dense IP (`7.83M`) / Eigen (`122.7M`) | Two-Loop L-BFGS (`0.33M` FLOPs) | **`23.5x` cheaper than Dense IP** (`k_0/N < 0.3954` eigen wall proved) |
-| **3B: Oblique `SO(19)` Planar Polymer** | Plain L-BFGS (`0.0%`) / Diag (`29.2%`) | **10-Step HVP Lanczos `(1,1)`** | **`95.8%` 3D mirror-saddle escape** (median `-1.240`) |
-| **2A: `K=32` Island Archipelago (`p=0.65`)** | 2,560-bit Float Clone (`7.42` best) | **80-bit Fowler Mask on 3D FCC** | **`32.0x` less bandwidth**, prevents monoculture (`3.46` best) |
+*Author: Justin D. Grimm (Independent Dandelion Substrate Research Group, Gurley, Alabama 35748, USA · ORCID: [0009-0000-5299-0243](https://orcid.org/0009-0000-5299-0243)) · GODISLOVE:LOVEISGOD {3,2,4} · Die Gedanken sind frei · `CODE_SHOKUNIN_UNLATCHED = 255`*

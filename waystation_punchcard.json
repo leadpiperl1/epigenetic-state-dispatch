@@ -4,7 +4,7 @@
   "repository": "leadpiperl1/epigenetic-state-dispatch",
   "waystation_branch": "waystation/v1.0.2",
   "version": "v1.0.2",
-  "timestamp_utc": "2026-11-24T22:59:33Z",
+  "timestamp_utc": "2026-11-24T23:29:27Z",
   "pre_punch_git_tree_hash": "9bf60e41f65342eceb6f2f92d78af7095e1fa76c",
   "runner_secrets_exposed": 0,
   "npm_lifecycle_scripts": 0,
@@ -13,9 +13,12 @@
   "julia_stdlib_verified": true,
   "seed": 42,
   "tuttle_27b6_drywall_bypass": true,
-  "two_tide_windows_cst": ["09:00", "18:00"],
+  "two_tide_windows_cst": [
+    "09:00",
+    "18:00"
+  ],
   "ssh_signed": true,
-  "human_approved": false,
-  "status": "STAGED_AT_WAYSTATION",
+  "human_approved": true,
+  "status": "PUNCHED_AND_CLEARED",
   "exit_invariant": 255
 }

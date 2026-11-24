@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this benchmark suite, Active-DNA Deborah-Hopf classifier, or manuscript, please cite it using the metadata below."
-title: "Hysteretic Ternary State Tagging, Matrix-Free Lanczos Saddle Escape, and Active-Flow DNA Mori-Zwanzig Deborah-Hopf Waveguides"
-version: 1.0.1
-date-released: 2026-11-19
+title: "Hysteretic Ternary State Tagging, Matrix-Free Lanczos Saddle Escape, and Active-Flow DNA Mori-Zwanzig Deborah-Hopf Waveguides (v1.0.2)"
+version: 1.0.2
+date-released: 2026-11-24
 license: CC-BY-4.0
 repository-code: "https://github.com/leadpiperl1/epigenetic-state-dispatch"
 authors:
@@ -10,3 +10,16 @@ authors:
     given-names: "Justin D."
     affiliation: "Independent Dandelion Substrate Research Group, Gurley, Alabama 35748, USA"
     orcid: "https://orcid.org/0009-0000-5299-0243"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21255229
+    description: "Foundational Dandelion Substrate & Metrological Calibration Preprint"
+  - type: doi
+    value: 10.5281/zenodo.24508791
+    description: "VP vs VNP Bounded 3D Metrology (v1.0.0)"
+  - type: doi
+    value: 10.5281/zenodo.24510216
+    description: "Contralateral Brain Wiring & Optic-Chiasm Parsimony (v1.1.0)"
+  - type: doi
+    value: 10.5281/zenodo.24510228
+    description: "Hippocampal Trajectory Manifolds & 60s EEG Localizer (v3.16.0)"

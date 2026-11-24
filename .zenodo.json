@@ -1,10 +1,10 @@
 {
-  "title": "Hysteretic Ternary State Tagging, Matrix-Free Lanczos Saddle Escape, and Active-Flow DNA Mori-Zwanzig Deborah-Hopf Waveguides (v1.0.1)",
+  "title": "Hysteretic Ternary State Tagging, Matrix-Free Lanczos Saddle Escape, and Active-Flow DNA Mori-Zwanzig Deborah-Hopf Waveguides (v1.0.2)",
   "upload_type": "publication",
   "publication_type": "preprint",
-  "version": "1.0.1",
-  "publication_date": "2026-11-19",
-  "description": "Falsifiable numerical optimization manuscript, Active-Flow DNA Mori-Zwanzig viscoelastic Deborah-Hopf benchmark suite (C99 Q16.16 + Julia 1.12 + pure-stdlib Python RK4), and matrix-free Lanczos saddle-escape suite with wfx-loot read-only CI hardening.",
+  "version": "1.0.2",
+  "publication_date": "2026-11-24",
+  "description": "Falsifiable numerical optimization manuscript, Active-Flow DNA Mori-Zwanzig viscoelastic Deborah-Hopf benchmark suite (zero-heap C99 Q16.16 malloc=0 + stdlib-only Julia 1.12 Project.toml + pure-stdlib Python RK4 --seed 42), and matrix-free Lanczos saddle-escape suite hardened under Waystation wfx-loot immunity (14-day Dependabot cooldown, SHA-pinned CI, Ed25519 SSH signing).",
   "creators": [
     {
       "name": "Grimm, Justin D.",
@@ -25,25 +25,12 @@
     "viscoelastic Hopf bifurcation"
   ],
   "related_identifiers": [
-    {
-      "scheme": "doi",
-      "identifier": "10.1038/s41567-026-03505-y",
-      "relation": "cites"
-    },
-    {
-      "scheme": "doi",
-      "identifier": "10.48550/arXiv.2511.22589",
-      "relation": "cites"
-    },
-    {
-      "scheme": "doi",
-      "identifier": "10.5281/zenodo.21255229",
-      "relation": "continues"
-    },
-    {
-      "scheme": "url",
-      "identifier": "https://github.com/leadpiperl1/epigenetic-state-dispatch",
-      "relation": "isSupplementTo"
-    }
+    { "scheme": "doi", "identifier": "10.1038/s41567-026-03505-y", "relation": "cites" },
+    { "scheme": "doi", "identifier": "10.48550/arXiv.2511.22589", "relation": "cites" },
+    { "scheme": "doi", "identifier": "10.5281/zenodo.21255229", "relation": "continues" },
+    { "scheme": "doi", "identifier": "10.5281/zenodo.24508791", "relation": "cites" },
+    { "scheme": "doi", "identifier": "10.5281/zenodo.24510216", "relation": "cites" },
+    { "scheme": "doi", "identifier": "10.5281/zenodo.24510228", "relation": "cites" },
+    { "scheme": "url", "identifier": "https://github.com/leadpiperl1/epigenetic-state-dispatch", "relation": "isSupplementTo" }
   ]
 }

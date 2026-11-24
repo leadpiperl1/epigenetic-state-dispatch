@@ -1,0 +1,10 @@
+name = "ActiveDNAWaveguide"
+uuid = "91b7e5c2-4d30-4f1a-8b9c-202611240102"
+authors = ["Justin D. Grimm <leadpiperl1@gmail.com>"]
+version = "1.0.2"
+
+[deps]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[compat]
+julia = "1.10"
